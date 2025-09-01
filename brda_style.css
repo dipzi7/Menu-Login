@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: Arial Sans-Serif;
-  background: url(bg-brda1.jpg) no-repeat center center/cover;
+  background: url(bg-brda2.jpg) no-repeat center center/cover;
   height: 100vh;
 }
 #topbar{
@@ -60,4 +60,53 @@ body{
 }
 .anggota{
   color: white;
+}
+#anggota-kpk{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+#anggota{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+#anggota li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 8px;
+  font-size: 1.3rem;
+  margin: 5px 0;
+}
+#kelas{
+  display: flex;
+  justify-content: center;
+  align-items: center
+  margin: 20px auto;
+}
+#kelas img{
+  margin-top: 60px;
+  max-width: 150px;
+  height: auto;
+  border-radius: 100%;
+  border: 5px solid #333;
+}
+#sidebar{
+  color: #fff;
+  margin-top: 80px;
+  background: transparent;
+  backdrop-filter: blur(4px);
+  padding-top: 2px;
+  border-radius: 25px;
+}
+#footer{
+  color: #444;
+  background-color: #888;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 1px;
+  border-top-left-radius: 20% 80%;
+  border-top-right-radius: 20% 80%;
 }
