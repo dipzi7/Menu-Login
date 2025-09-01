@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial Sans-Serif;
+  background: url(bg-brda2.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+#topbar{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-block: 10px;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+#topbar img{
+  display: flex;
+  width: 50px;
+  height: auto;
+}
+#topbar h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+#header{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 90px;
+  padding: 0;
+  list-style: none;
+  border-radius: 25px;
+  background: transparent;
+  backdrop-filter: blur(8px);
+}
+#header li{
+  padding: 15px 30px;
+  margin: 1px 8px;
+  list-style: none;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-radius: 25px;
+}
+#header li a{
+  color: #fff;
+  text-decoration: none;
+}
+#search-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+#search-box input{
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.identitas{
+  width: 470px;
+  float: left;
+}
+#list-anggota{
+  color: #ddd;
+  text-align: center;
+}
+#lukman{
+  background: transparent;
+  backdrop-filter: blur(2px);
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-top: 25px;
+  color: #fff;
+}
+#lukman img{
+  float: left;
+  margin-right: 10px;
+  width: 160px;
+  height: 145px;
+  border-radius: 10%;
+}
+#lukman b{
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:10px;
+}
+#lukman p{
+  margin: 10px 0;
+  color: #ddd;
+}
+#rahmat{
+  background: transparent;
+  backdrop-filter: blur(2px);
+  border-radius: 10%;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-top: 25px;
+  color: #fff;
+}
+#rahmat img{
+  float: left;
+  margin-right: 10px;
+  width: 160px;
+  height: 145px;
+  border-radius: 10%;
+}
+#rahmat b{
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:10px;
+}
+#rahmat p{
+  margin: 10px 0;
+  color: #ddd;
+}
+#ivan{
+  background: transparent;
+  backdrop-filter: blur(2px);
+  border-radius: 10%;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-top: 25px;
+  color: #fff;
+}
+#ivan img{
+  float: left;
+  margin-right: 10px;
+  width: 160px;
+  height: 145px;
+  border-radius: 10%;
+}
+#ivan b{
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:10px;
+}
+#ivan p{
+  margin: 10px 0;
+  color: #ddd;
+}
+#rovie{
+  background: transparent;
+  backdrop-filter: blur(2px);
+  border-radius: 10%;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-top: 25px;
+  color: #fff;
+}
+#rovie img{
+  float: left;
+  margin-right: 10px;
+  width: 160px;
+  height: 145px;
+  border-radius: 10%;
+}
+#rovie b{
+  color:#616060;
+  background:#DDDDDD;
+  padding:3px;
+  font-size:12px;
+  font-weight:bold;
+  margin-right:10px;
+}
+#rovie p{
+  margin: 10px 0;
+  color: #ddd;
+}
+#footer{
+  color: #444;
+  background-color: #888;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 1px;
+  border-top-left-radius: 20% 80%;
+  border-top-right-radius: 20% 80%;
+}
