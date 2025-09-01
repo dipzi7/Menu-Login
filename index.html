@@ -11,15 +11,15 @@
          <div class="box">
            
            <h1>LOGIN</h1>
-          <form> 
+          <form onsubmit="login(event)">
            <div class="input-box">
              <p>Username</p>
-             <input type="text" placeholder="Username" required>
+             <input type="text" id="username" placeholder="Username" required>
            </div>
            
            <div class="input-box">
              <p>Password</p>
-             <input type="password" placeholder="Password" required>
+             <input type="password" id="password" placeholder="Password" required>
            </div>
            
            <div class="options">
@@ -34,6 +34,20 @@
              Tidak Punya Akun?<a href="register.html">Register</a>
            </div>
            </form>
+           
+           <script>
+             function login(event){
+               event.preventDefault();
+               let user = document.getElementById("username").value;
+               let pass = document.getElementById("password").value;
+               
+               if(user === "Admin" && pass === "kepleset") {
+                 window.location.href = "beranda.html";
+               } else {
+                 alert("username atau password salah");
+               }
+             }
+           </script>
            </div>
        </div>
     </body>
